@@ -53,5 +53,5 @@ USER duplicity
 # Brief check that it works.
 RUN poetry run duplicity --version
 
-ENTRYPOINT ["poetry", "shell"]
+ENTRYPOINT ["poetry", "run"]
 CMD ["duplicity"]
