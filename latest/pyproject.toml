@@ -26,7 +26,7 @@ pydrive = "*"
 pyrax = "*"
 python-swiftclient = "*"
 requests_oauthlib = "*"
-
+paramiko = "*"
 
 [tool.poetry.group.dev.dependencies]
 
