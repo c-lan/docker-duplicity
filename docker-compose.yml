@@ -1,15 +1,13 @@
-version: '3'
-
 services:
   latest:
-    image: wernight/duplicity:latest
+    image: cl4n/duplicity:latest
     build:
       context: latest
     volumes:
       - ./latest:/mnt
     command: ['duplicity', '--version']
   stable:
-    image: wernight/duplicity:stable
+    image: cl4n/duplicity:stable
     build:
       context: stable
     command: ['duplicity', '--version']
